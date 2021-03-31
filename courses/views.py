@@ -10,7 +10,8 @@ from .forms import ModuleFormSet
 from django.forms.models import modelform_factory
 from django.apps import apps
 from .models import Module, Content
-from braces.views import CsrfExemptMixin, JsonRequestResponseMixin
+# from braces.views import CsrfExemptMixin, JsonRequestResponseMixin
+
 
 
 
